@@ -52,8 +52,6 @@ def madLibs(data):
     
     print "The %s %s %s %s %s" % (randomAdjective, randomNoun, randomAdverb, randomVerb, randomLocation)
     
-#    print theJSONWords["adjective"]
-    
 def main():
     
     iNeedAPromptUrl = "http://www.ineedaprompt.com/dictionary.json"
