@@ -50,7 +50,7 @@ def madLibs(data):
     #generate a random location from the list
     randomLocation = locations[random.randrange(0, numberOfLocations-1)]
     
-    print "The %s %s %s %s %s" % (randomAdjective, randomNoun, randomAdverb, randomVerb, randomLocation)
+    print "The %s %s %s %s %s." % (randomAdjective, randomNoun, randomAdverb, randomVerb, randomLocation)
     
 def main():
     
